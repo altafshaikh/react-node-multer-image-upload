@@ -1,0 +1,31 @@
+{
+  "name": "express-image-upload-server",
+  "version": "1.0.0",
+  "description": "image upload server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "mvc",
+    "multer",
+    "image upload"
+  ],
+  "author": "Altaf Shaikh",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.23.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "datauri": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.5",
+    "multer": "^1.4.2"
+  },
+  "engines": {
+    "node": "10.19"
+  }
+}
